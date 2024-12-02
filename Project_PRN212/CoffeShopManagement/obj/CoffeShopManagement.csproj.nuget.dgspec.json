@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\CoffeShopManagement.csproj": {}
+    "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\CoffeShopManagement.csproj": {}
   },
   "projects": {
-    "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\CoffeShopManagement.csproj": {
+    "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\CoffeShopManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\CoffeShopManagement.csproj",
+        "projectUniqueName": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\CoffeShopManagement.csproj",
         "projectName": "CoffeShopManagement",
-        "projectPath": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\CoffeShopManagement.csproj",
-        "packagesPath": "C:\\Users\\Vanxuan\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\obj\\",
+        "projectPath": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\CoffeShopManagement.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vanxuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\Model\\Model.csproj": {
-                "projectPath": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\Model\\Model.csproj"
+              "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\Model\\Model.csproj": {
+                "projectPath": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\Model\\Model.csproj"
               }
             }
           }
@@ -67,21 +68,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\Model\\Model.csproj": {
+    "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\Model\\Model.csproj",
+        "projectUniqueName": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\Vanxuan\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\Model\\obj\\",
+        "projectPath": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vanxuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,6 +90,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -157,7 +159,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
