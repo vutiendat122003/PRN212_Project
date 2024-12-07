@@ -1133,7 +1133,20 @@
           }
         }
       },
-      "Model/1.0.0": {
+      "CafeManager.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CafeManager.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CafeManager.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CafeManager.BLL.dll": {}
+        }
+      },
+      "CafeManager.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1143,10 +1156,10 @@
           "Microsoft.Extensions.Configuration.Json": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/Model.dll": {}
+          "bin/placeholder/CafeManager.DAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Model.dll": {}
+          "bin/placeholder/CafeManager.DAL.dll": {}
         }
       }
     }
@@ -3109,31 +3122,36 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Model/1.0.0": {
+    "CafeManager.BLL/1.0.0": {
       "type": "project",
-      "path": "../Model/Model.csproj",
-      "msbuildProject": "../Model/Model.csproj"
+      "path": "../CafeManager.BLL/CafeManager.BLL.csproj",
+      "msbuildProject": "../CafeManager.BLL/CafeManager.BLL.csproj"
+    },
+    "CafeManager.DAL/1.0.0": {
+      "type": "project",
+      "path": "../CafeManager.DAL/CafeManager.DAL.csproj",
+      "msbuildProject": "../CafeManager.DAL/CafeManager.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "Model >= 1.0.0"
+      "CafeManager.BLL >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\Vanxuan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\CoffeShopManagement.csproj",
+      "projectUniqueName": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\CoffeShopManagement.csproj",
       "projectName": "CoffeShopManagement",
-      "projectPath": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\CoffeShopManagement.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\obj\\",
+      "projectPath": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\CoffeShopManagement.csproj",
+      "packagesPath": "C:\\Users\\Vanxuan\\.nuget\\packages\\",
+      "outputPath": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Vanxuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3141,15 +3159,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\Model\\Model.csproj": {
-              "projectPath": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\Model\\Model.csproj"
+            "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.BLL\\CafeManager.BLL.csproj": {
+              "projectPath": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.BLL\\CafeManager.BLL.csproj"
             }
           }
         }
@@ -3187,7 +3204,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

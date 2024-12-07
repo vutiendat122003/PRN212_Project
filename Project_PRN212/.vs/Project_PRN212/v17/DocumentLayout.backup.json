@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|d:\\prn211\\prn212_assignment\\prn212_project\\project_prn212\\coffeshopmanagement\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|solutionrelative:coffeshopmanagement\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|d:\\prn211\\prn212_assignment\\prn212_project\\project_prn212\\coffeshopmanagement\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|solutionrelative:coffeshopmanagement\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|d:\\prn211\\prn212_assignment\\prn212_project\\project_prn212\\coffeshopmanagement\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|solutionrelative:coffeshopmanagement\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA1298C5-5E7D-4F12-B377-4A0F4D6D2408}|CafeManager.DAL\\CafeManager.DAL.csproj|d:\\prn211\\prn212_assignment\\prn212_project\\project_prn212\\cafemanager.dal\\cafemanager.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FA1298C5-5E7D-4F12-B377-4A0F4D6D2408}|CafeManager.DAL\\CafeManager.DAL.csproj|solutionrelative:cafemanager.dal\\cafemanager.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E81415D1-8288-4EA5-A698-6B0B6801988C}|CafeManager.BLL\\CafeManager.BLL.csproj|d:\\prn211\\prn212_assignment\\prn212_project\\project_prn212\\cafemanager.bll\\cafemanager.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E81415D1-8288-4EA5-A698-6B0B6801988C}|CafeManager.BLL\\CafeManager.BLL.csproj|solutionrelative:cafemanager.bll\\cafemanager.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|d:\\prn211\\prn212_assignment\\prn212_project\\project_prn212\\coffeshopmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|solutionrelative:coffeshopmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|d:\\prn211\\prn212_assignment\\prn212_project\\project_prn212\\coffeshopmanagement\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|solutionrelative:coffeshopmanagement\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|d:\\prn211\\prn212_assignment\\prn212_project\\project_prn212\\coffeshopmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|solutionrelative:coffeshopmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|d:\\prn211\\prn212_assignment\\prn212_project\\project_prn212\\coffeshopmanagement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|solutionrelative:coffeshopmanagement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E81415D1-8288-4EA5-A698-6B0B6801988C}|CafeManager.BLL\\CafeManager.BLL.csproj|d:\\prn211\\prn212_assignment\\prn212_project\\project_prn212\\cafemanager.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E81415D1-8288-4EA5-A698-6B0B6801988C}|CafeManager.BLL\\CafeManager.BLL.csproj|solutionrelative:cafemanager.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|d:\\prn211\\prn212_assignment\\prn212_project\\project_prn212\\coffeshopmanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|solutionrelative:coffeshopmanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|d:\\prn211\\prn212_assignment\\prn212_project\\project_prn212\\coffeshopmanagement\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|solutionrelative:coffeshopmanagement\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CafeManager.DAL\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,65 +63,122 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "CoffeShopManagement\\LoginWindow.xaml",
+              "ToolTip": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\LoginWindow.xaml",
+              "RelativeToolTip": "CoffeShopManagement\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-02T11:52:30.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CafeManager.BLL.csproj",
+              "DocumentMoniker": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.BLL\\CafeManager.BLL.csproj",
+              "RelativeDocumentMoniker": "CafeManager.BLL\\CafeManager.BLL.csproj",
+              "ToolTip": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.BLL\\CafeManager.BLL.csproj",
+              "RelativeToolTip": "CafeManager.BLL\\CafeManager.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T02:39:10.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\App.xaml.cs",
               "RelativeDocumentMoniker": "CoffeShopManagement\\App.xaml.cs",
               "ToolTip": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\App.xaml.cs",
               "RelativeToolTip": "CoffeShopManagement\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T02:57:07.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T02:58:15.015Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CoffeShopManagement\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "CoffeShopManagement\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:56:42.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CafeManager.DAL.csproj",
+              "DocumentMoniker": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\CafeManager.DAL.csproj",
+              "RelativeDocumentMoniker": "CafeManager.DAL\\CafeManager.DAL.csproj",
+              "ToolTip": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\CafeManager.DAL.csproj",
+              "RelativeToolTip": "CafeManager.DAL\\CafeManager.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-06T16:00:28.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\App.xaml",
               "RelativeDocumentMoniker": "CoffeShopManagement\\App.xaml",
               "ToolTip": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\App.xaml",
               "RelativeToolTip": "CoffeShopManagement\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-02T02:57:04.046Z",
+              "WhenOpened": "2024-12-05T02:58:04.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "CafeManager.BLL\\Class1.cs",
+              "ToolTip": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.BLL\\Class1.cs",
+              "RelativeToolTip": "CafeManager.BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T02:38:55.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "CafeManager.DAL\\Class1.cs",
+              "ToolTip": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\Class1.cs",
+              "RelativeToolTip": "CafeManager.DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:49:16.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "CoffeShopManagement\\AssemblyInfo.cs",
+              "ToolTip": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\AssemblyInfo.cs",
+              "RelativeToolTip": "CoffeShopManagement\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:55:05.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\appsettings.json",
               "RelativeDocumentMoniker": "CoffeShopManagement\\appsettings.json",
               "ToolTip": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\appsettings.json",
               "RelativeToolTip": "CoffeShopManagement\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-02T02:56:07.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "CoffeShopManagement\\MainWindow.xaml",
-              "ToolTip": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\MainWindow.xaml",
-              "RelativeToolTip": "CoffeShopManagement\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-02T02:41:02.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "CoffeShopManagement\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\MainWindow.xaml.cs",
-              "RelativeToolTip": "CoffeShopManagement\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAswBMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T02:40:56.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T11:50:33.779Z"
             }
           ]
         }
