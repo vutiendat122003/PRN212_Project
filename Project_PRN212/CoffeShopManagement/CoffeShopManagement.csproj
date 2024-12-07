@@ -24,7 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Images\" />
+    <Folder Include="Admin\" />
+    <Folder Include="Staff\" />
   </ItemGroup>
 
 </Project>

@@ -109,16 +109,16 @@
 
             <StackPanel Margin="0,0,0,10" Height="80" Width="409">
                 <TextBlock Text="Username" />
-                <TextBox />
+                <TextBox x:Name="txtEmail" />
             </StackPanel>
 
             <StackPanel Margin="0,0,0,10" Height="80" Width="409" HorizontalAlignment="Left">
                 <TextBlock Text="Password" />
-                <PasswordBox />
+                <PasswordBox x:Name="txtPassword" />
                 <TextBox Name="PasswordVisible" Visibility="Collapsed"/>
                 <CheckBox Content="Show password" HorizontalAlignment="Right" Margin="0,5,0,0" />
             </StackPanel>
-            <Button Content="LOGIN" HorizontalAlignment="Left"/>
+            <Button Content="LOGIN" HorizontalAlignment="Left" Click="Button_Click"/>
         </StackPanel>
     </Grid>
 

@@ -78,3 +78,7 @@ D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\bi
 D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\bin\Debug\net8.0-windows\CafeManager.DAL.pdb
 D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\obj\Debug\net8.0-windows\CoffeSho.E38012F1.Up2Date
 D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\bin\Debug\net8.0-windows\Images\logo.png
+D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\obj\Debug\net8.0-windows\HomeWindow.g.cs
+D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\obj\Debug\net8.0-windows\HomeWindow.baml
+D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\obj\Debug\net8.0-windows\StaffWindow.g.cs
+D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\obj\Debug\net8.0-windows\StaffWindow.baml

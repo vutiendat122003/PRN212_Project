@@ -1,0 +1,59 @@
+﻿<Window x:Class="CoffeShopManagement.StaffWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoffeShopManagement"
+        mc:Ignorable="d"
+        Title="StaffWindow" Height="600" Width="1000" WindowStartupLocation="CenterScreen" >
+    <Window.Resources>
+        <Style x:Key="MenuButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#9B4444"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                            <Grid>
+                                <Ellipse Name="Dot" Fill="White" Width="5" Height="5" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" Visibility="Collapsed"/>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="Dot" Property="Visibility" Value="Visible"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid Background="#E3E3E3">
+        <Border Background="#5C1D1D" HorizontalAlignment="Left" Width="200">
+            <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,20">
+                <Image Height="50" Width="50" Margin="0,0,0,20"/>
+                <TextBlock Text="Welcome, Coffee" Foreground="White" FontSize="16" FontWeight="Bold" TextAlignment="Center" Margin="0,0,0,20"/>
+
+                
+
+                <!-- Staff Menu -->
+                <StackPanel>
+                    <Button Content="Orders" Style="{StaticResource MenuButtonStyle}" Click="NavigateToOrders_Click"/>
+                    <Button Content="Daily Bills" Style="{StaticResource MenuButtonStyle}" Click="NavigateToDailyBills_Click"/>
+                </StackPanel>
+
+                <Button Content="Log Out" Style="{StaticResource MenuButtonStyle}" Click="NavigateToLogin_Click"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Main Content -->
+        <Grid Margin="220,20,20,20">
+            <!-- Place for main content -->
+            <Frame x:Name="frMain" NavigationUIVisibility="Visible"/>
+        </Grid>
+    </Grid>
+</Window>
