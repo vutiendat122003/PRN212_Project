@@ -64,5 +64,35 @@ namespace CoffeShopManagement
 
             this.Hide();
         }
+        // Hiển thị mật khẩu khi CheckBox được chọn
+        private void CheckBox_ShowPassword_Checked(object sender, RoutedEventArgs e)
+        {
+            PasswordVisible.Text = txtPassword.Password; // Hiển thị mật khẩu
+            PasswordVisible.Visibility = Visibility.Visible;
+            txtPassword.Visibility = Visibility.Collapsed;
+        }
+
+        // Ẩn mật khẩu khi CheckBox bị bỏ chọn
+        private void CheckBox_ShowPassword_Unchecked(object sender, RoutedEventArgs e)
+        {
+            txtPassword.Password = PasswordVisible.Text; // Đồng bộ mật khẩu
+            txtPassword.Visibility = Visibility.Visible;
+            PasswordVisible.Visibility = Visibility.Collapsed;
+        }
+
+        // Đồng bộ hóa mật khẩu giữa PasswordBox và TextBox
+        private void txtPassword_PasswordChanged(object sender, RoutedEventArgs e)
+        {
+            if (txtPassword.Visibility == Visibility.Visible)
+            {
+                PasswordVisible.Text = txtPassword.Password;
+            }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            SignUpWindow signup = new SignUpWindow();
+            signup.Show();
+        }
     }
 }

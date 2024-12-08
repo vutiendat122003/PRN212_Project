@@ -24,7 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Admin\" />
     <Folder Include="Staff\" />
   </ItemGroup>
 

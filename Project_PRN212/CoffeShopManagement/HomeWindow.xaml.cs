@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CoffeShopManagement.Admin;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -46,6 +47,7 @@ namespace CoffeShopManagement
 
         private void NavigateToAccounts_Click(object sender, RoutedEventArgs e)
         {
+            frMain.Content = new AccountPage();
 
         }
 

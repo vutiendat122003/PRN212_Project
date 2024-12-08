@@ -61,7 +61,7 @@ namespace CoffeShopManagement {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CoffeShopManagement;V1.0.0.0;component/staffwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CoffeShopManagement;component/staffwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\StaffWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

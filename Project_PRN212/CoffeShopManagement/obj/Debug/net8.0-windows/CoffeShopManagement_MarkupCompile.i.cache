@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\App.xaml
-4-592343234
+697333731
 
-9-7997246
+11-2020638993
 236-266723764
-HomeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;StaffWindow.xaml;
+Admin\AccountPage.xaml;HomeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;SignUpWindow.xaml;StaffWindow.xaml;
 
-False
+True
 

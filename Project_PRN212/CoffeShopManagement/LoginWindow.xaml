@@ -3,7 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:CoffeShopManagement"
         mc:Ignorable="d"
         Title="LoginWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Window.Resources>
@@ -28,19 +27,18 @@
         </Style>
 
         <!-- TextBox Style -->
-       <Style TargetType="TextBox">
-        <Setter Property="Margin" Value="5"/>
-        <Setter Property="FontSize" Value="14"/>
-        <Setter Property="Padding" Value="5"/>
-        <Setter Property="BorderBrush" Value="Gray"/>
-        <Setter Property="BorderThickness" Value="1"/>
-        <Setter Property="Background" Value="White"/>
-        <Setter Property="Effect">
-            <Setter.Value>
-                <DropShadowEffect ShadowDepth="0" BlurRadius="5" Color="LightGray"/>
-            </Setter.Value>
-        </Setter>
-            <!-- Hiệu ứng khi focus -->
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect ShadowDepth="0" BlurRadius="5" Color="LightGray"/>
+                </Setter.Value>
+            </Setter>
             <Style.Triggers>
                 <Trigger Property="IsFocused" Value="True">
                     <Setter Property="BorderBrush" Value="DodgerBlue"/>
@@ -83,23 +81,18 @@
         <!-- Define Grid Columns -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="300"/>
-            <!-- Cột bên trái -->
             <ColumnDefinition Width="*"/>
-            <!-- Cột bên phải -->
         </Grid.ColumnDefinitions>
 
-        <!-- Left Panel with Full Background -->
+        <!-- Left Panel -->
         <Grid Grid.Column="0" Background="#633232">
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
                 <StackPanel Margin="0,0,0,60">
                     <Image Source="D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\Images\logo.png" Height="100" Width="100"/>
-                    <TextBlock Text="Coffee Management System" 
-                           Foreground="White" FontSize="20" 
-                           FontWeight="Bold" TextAlignment="Center" Margin="0,0,0,20"/>
+                    <TextBlock Text="Coffee Management System" Foreground="White" FontSize="20" FontWeight="Bold" TextAlignment="Center" Margin="0,0,0,20"/>
                 </StackPanel>
-                <TextBlock Text="Register Your Account" 
-                       Foreground="White" TextAlignment="Center" Margin="0,0,0,20"/>
-                <Button Content="SIGNUP"/>
+                <TextBlock Text="Register Your Account" Foreground="White" TextAlignment="Center" Margin="0,0,0,20"/>
+                <Button Content="SIGNUP" Click="Button_Click_1"/>
             </StackPanel>
         </Grid>
 
@@ -108,19 +101,20 @@
             <TextBlock Text="Login Form" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
 
             <StackPanel Margin="0,0,0,10" Height="80" Width="409">
-                <TextBlock Text="Username" />
-                <TextBox x:Name="txtEmail" />
+                <TextBlock Text="Username"/>
+                <TextBox x:Name="txtEmail"/>
             </StackPanel>
 
-            <StackPanel Margin="0,0,0,10" Height="80" Width="409" HorizontalAlignment="Left">
-                <TextBlock Text="Password" />
-                <PasswordBox x:Name="txtPassword" />
+            <StackPanel Margin="0,0,0,10" Height="120" Width="409">
+                <TextBlock Text="Password"/>
+                <PasswordBox x:Name="txtPassword" PasswordChanged="txtPassword_PasswordChanged"/>
                 <TextBox Name="PasswordVisible" Visibility="Collapsed"/>
-                <CheckBox Content="Show password" HorizontalAlignment="Right" Margin="0,5,0,0" />
+                <CheckBox Content="Show password" HorizontalAlignment="Right" Margin="0,5,0,0" 
+                          Checked="CheckBox_ShowPassword_Checked" 
+                          Unchecked="CheckBox_ShowPassword_Unchecked"/>
             </StackPanel>
+
             <Button Content="LOGIN" HorizontalAlignment="Left" Click="Button_Click"/>
         </StackPanel>
     </Grid>
-
-
 </Window>
