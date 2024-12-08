@@ -86,3 +86,4 @@ D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\ob
 D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\obj\Debug\net8.0-windows\SignUpWindow.g.cs
 D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\obj\Debug\net8.0-windows\Admin\AccountPage.g.cs
 D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\obj\Debug\net8.0-windows\Admin\AccountPage.baml
+D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs

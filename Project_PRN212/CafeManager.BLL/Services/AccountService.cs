@@ -44,6 +44,16 @@ namespace CafeManager.BLL.Services
         {
             return _accountRepository.GetAllAccounts(); // Gọi phương thức trong Repository để lấy tất cả tài khoản
         }
+        public void UpdateAccount(int accountId, string newUserName, string newPassword, bool? newGender = null, int? newType = null)
+        {
 
+            _accountRepository.UpdateAccount(accountId, newUserName, newPassword, newGender, newType);
+        }
+        public void DeleteAccount(int accountId)
+        {
+            _accountRepository.DeleteAccount(accountId);
+        }
+
+    
     }
 }

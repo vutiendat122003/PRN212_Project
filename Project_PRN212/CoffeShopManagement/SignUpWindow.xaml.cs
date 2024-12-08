@@ -1,4 +1,5 @@
 ﻿using CafeManager.BLL.Services;
+using CafeManager.DAL.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,24 +36,40 @@ namespace CoffeShopManagement
                 string password = txtPassword.Password; // PasswordBox
                 bool isMale = rbMale.IsChecked == true; // RadioButton
 
+                // Kiểm tra nếu tên người dùng hoặc mật khẩu bị trống
+                if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
+                {
+                    MessageBox.Show("Username và Password không được để trống.", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                // Kiểm tra mật khẩu có hợp lệ không
+                if (!PasswordHasher.IsValidPassword(password))
+                {
+                    MessageBox.Show("Mật khẩu phải chứa ít nhất một chữ hoa, một chữ thường, một số và một ký tự đặc biệt.", "Lỗi xác thực", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                // Mã hóa mật khẩu trước khi lưu
+                string hashedPassword = PasswordHasher.HashPassword(password);
+
                 // Gọi phương thức đăng ký
-                bool isSuccess = _accountService.Register(username, password, isMale);
+                bool isSuccess = _accountService.Register(username, hashedPassword, isMale);
 
                 if (isSuccess)
                 {
-                    MessageBox.Show("Account created successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBox.Show("Tạo tài khoản thành công!", "Thành công", MessageBoxButton.OK, MessageBoxImage.Information);
                     this.Close(); // Đóng cửa sổ sau khi đăng ký thành công
                 }
                 else
                 {
-                    MessageBox.Show("Failed to create account.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show("Tạo tài khoản không thành công. Có thể tên người dùng đã tồn tại.", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show($"Lỗi: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-
         }
     }
 }
