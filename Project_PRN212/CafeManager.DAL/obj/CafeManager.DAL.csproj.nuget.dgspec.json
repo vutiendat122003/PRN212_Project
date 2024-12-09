@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\CafeManager.DAL.csproj": {}
+    "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\CafeManager.DAL.csproj": {}
   },
   "projects": {
-    "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\CafeManager.DAL.csproj": {
+    "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\CafeManager.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\CafeManager.DAL.csproj",
+        "projectUniqueName": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\CafeManager.DAL.csproj",
         "projectName": "CafeManager.DAL",
-        "projectPath": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\CafeManager.DAL.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\obj\\",
+        "projectPath": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\CafeManager.DAL.csproj",
+        "packagesPath": "C:\\Users\\Vanxuan\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vanxuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -91,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

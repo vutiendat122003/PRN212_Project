@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CoffeShopManagement
-build_property.ProjectDir = D:\PRN212_Sang\PRN212_Project\PRN212_Project\Project_PRN212\CoffeShopManagement\
+build_property.ProjectDir = D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

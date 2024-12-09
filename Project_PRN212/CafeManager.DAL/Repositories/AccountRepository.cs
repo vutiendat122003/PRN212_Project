@@ -32,14 +32,13 @@ namespace CafeManager.DAL.Repositories
             {
                 using var context = new CoffeeDbContext();
 
-                // Mã hóa mật khẩu trước khi lưu vào cơ sở dữ liệu
-                string hashedPassword = PasswordHasher.HashPassword(password);
+              
 
                 // Tạo đối tượng Account mới
                 var account = new Account
                 {
                     Name = user,
-                    Password = hashedPassword,
+                    Password = password,
                     Gender = gender,
                 };
 
@@ -79,7 +78,7 @@ namespace CafeManager.DAL.Repositories
                 account.Name = newUserName ?? account.Name;
                 if (!string.IsNullOrEmpty(newPassword))
                 {
-                    account.Password = PasswordHasher.HashPassword(newPassword);
+                    account.Password = newPassword;
                 }
                 if (newGender.HasValue)
                 {

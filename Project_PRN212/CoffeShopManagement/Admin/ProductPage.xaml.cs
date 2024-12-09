@@ -41,5 +41,10 @@ namespace CoffeShopManagement.Admin
                 ProductImage.Source = bitmap;
             }
         }
+
+        private void SearchButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

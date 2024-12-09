@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CafeManager.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+297a8a1cdc5b305398d0cb27b84bbd150db70379")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c016c5edf92f6deeb74a526c643fd9d9f9ac1f8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CafeManager.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CafeManager.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

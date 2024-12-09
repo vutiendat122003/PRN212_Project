@@ -17,11 +17,6 @@ namespace CafeManager.BLL.Services
         }
         public bool Register(string userName, string password, bool gender)
         {
-            if (string.IsNullOrWhiteSpace(userName) || string.IsNullOrWhiteSpace(password))
-            {
-                return false;
-            }
-
             // Sử dụng GetByUserName để kiểm tra trùng lặp
             var existingAccount = _accountRepository.GetByUserName(userName);
             if (existingAccount != null)
