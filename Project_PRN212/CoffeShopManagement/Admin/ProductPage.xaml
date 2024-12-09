@@ -1,0 +1,106 @@
+﻿<Page x:Class="CoffeShopManagement.Admin.ProductPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CoffeShopManagement.Admin"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ProductPage" Background="White">
+    <Page.Resources>
+        <Style x:Key="ActionButtonStyle" TargetType="Button">
+            <Setter Property="Margin" Value="5,0,0,0" />
+            <Setter Property="Padding" Value="5" />
+            <Setter Property="Background" Value="#9B4444" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="BorderBrush" Value="#9B4444" />
+            <Setter Property="Width" Value="100" />
+            <Setter Property="Height" Value="30" />
+            <Setter Property="Cursor" Value="Hand" />
+        </Style>
+        <!-- Styles for Labels -->
+        <Style x:Key="InputLabelStyle" TargetType="Label">
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="Width" Value="120" />
+        </Style>
+        <!-- DataGrid Style -->
+        <Style TargetType="DataGrid">
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="RowHeight" Value="30" />
+            <Setter Property="GridLinesVisibility" Value="Horizontal" />
+        </Style>
+        <Style TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="#9B4444" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Padding" Value="10" />
+        </Style>
+    </Page.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Left Section: Input Fields -->
+        <StackPanel Grid.Column="0" Margin="10">
+            <!-- Product ID -->
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Label Content="Product ID:" Style="{StaticResource InputLabelStyle}" />
+                <TextBox Width="200" x:Name="ProductIDTextBox" />
+            </StackPanel>
+            <!-- Product Name -->
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Label Content="Product Name:" Style="{StaticResource InputLabelStyle}" />
+                <TextBox Width="200" x:Name="ProductNameTextBox" />
+            </StackPanel>
+            
+            <!-- Image Selection -->
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Label Content="Image:" Style="{StaticResource InputLabelStyle}" />
+                <Button Content="Image" Click="ChooseImageButton_Click" Width="50" Height="30" />
+                <Image x:Name="ProductImage" Height="100" Width="125" Margin="10,0,0,0" />
+            </StackPanel>
+
+            <!-- Category -->
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Label Content="Category:" Style="{StaticResource InputLabelStyle}" />
+                <ComboBox Width="200" x:Name="CategoryComboBox">
+                    <ComboBoxItem Content="1" />
+                    <ComboBoxItem Content="2" />
+                </ComboBox>
+            </StackPanel>
+
+            <!-- Price -->
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Label Content="Price:" Style="{StaticResource InputLabelStyle}" />
+                <TextBox Width="200" x:Name="PriceTextBox" />
+            </StackPanel>
+
+            <!-- Action Buttons -->
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Button Content="Add" Style="{StaticResource ActionButtonStyle}" />
+                <Button Content="Update" Style="{StaticResource ActionButtonStyle}" />
+                <Button Content="Delete" Style="{StaticResource ActionButtonStyle}" />
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Right Section: Search -->
+        <StackPanel Orientation="Horizontal" Grid.Column="1" Margin="130,10,0,0" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top">
+            <TextBox Width="200" Height="30" x:Name="SearchTextBox" Margin="0,0,5,0" />
+            <Button Content="Search" Style="{StaticResource ActionButtonStyle}" Click="SearchButton_Click" />
+        </StackPanel>
+
+        <!-- DataGrid Section -->
+        
+    </Grid>
+
+
+</Page>

@@ -42,7 +42,7 @@ namespace CoffeShopManagement
 
         private void NavigateToProduct_Click(object sender, RoutedEventArgs e)
         {
-
+            frMain.Content = new ProductPage();
         }
 
         private void NavigateToAccounts_Click(object sender, RoutedEventArgs e)

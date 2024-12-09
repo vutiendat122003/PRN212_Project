@@ -21,7 +21,9 @@
             <Setter Property="Background" Value="#9B4444" />
             <Setter Property="Foreground" Value="White" />
             <Setter Property="FontWeight" Value="Bold" />
-            <Setter Property="BorderBrush" Value="#9B4445" />
+
+            <Setter Property="BorderBrush" Value="#9B4444" />
+
             <Setter Property="Width" Value="100" />
             <Setter Property="Height" Value="30" />
             <Setter Property="Cursor" Value="Hand" />
