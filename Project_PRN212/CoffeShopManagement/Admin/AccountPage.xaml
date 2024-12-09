@@ -3,22 +3,30 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:CoffeShopManagement.Admin"
+      xmlns:local="clr-namespace:CoffeShopManagement.Converters"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AccountPage" Background="White">
+
     <Page.Resources>
+        <!-- Converter Resources -->
+        <local:GeneralConverter x:Key="GenderConverter" ConverterType="Gender" />
+        <local:GeneralConverter x:Key="RoleConverter" ConverterType="Role" />
+
+
+        <!-- Styles for Buttons -->
         <Style x:Key="ActionButtonStyle" TargetType="Button">
             <Setter Property="Margin" Value="5,0,0,0" />
             <Setter Property="Padding" Value="5" />
             <Setter Property="Background" Value="#9B4444" />
             <Setter Property="Foreground" Value="White" />
             <Setter Property="FontWeight" Value="Bold" />
-            <Setter Property="BorderBrush" Value="#9B4444" />
+            <Setter Property="BorderBrush" Value="#9B4445" />
             <Setter Property="Width" Value="100" />
             <Setter Property="Height" Value="30" />
             <Setter Property="Cursor" Value="Hand" />
         </Style>
+
         <!-- Styles for Labels -->
         <Style x:Key="InputLabelStyle" TargetType="Label">
             <Setter Property="FontSize" Value="14" />
@@ -26,7 +34,8 @@
             <Setter Property="HorizontalAlignment" Value="Left" />
             <Setter Property="Width" Value="120" />
         </Style>
-        <!-- DataGrid Style -->
+
+        <!-- Styles for DataGrid -->
         <Style TargetType="DataGrid">
             <Setter Property="FontSize" Value="14" />
             <Setter Property="RowHeight" Value="30" />
@@ -37,6 +46,54 @@
             <Setter Property="Foreground" Value="White" />
             <Setter Property="FontWeight" Value="Bold" />
             <Setter Property="Padding" Value="10" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect ShadowDepth="0" BlurRadius="5" Color="LightGray"/>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsFocused" Value="True">
+                    <Setter Property="BorderBrush" Value="DodgerBlue"/>
+                    <Setter Property="Effect">
+                        <Setter.Value>
+                            <DropShadowEffect ShadowDepth="0" BlurRadius="8" Color="DodgerBlue"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- PasswordBox Style -->
+        <Style TargetType="PasswordBox">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect ShadowDepth="0" BlurRadius="5" Color="LightGray"/>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsFocused" Value="True">
+                    <Setter Property="BorderBrush" Value="DodgerBlue"/>
+                    <Setter Property="Effect">
+                        <Setter.Value>
+                            <DropShadowEffect ShadowDepth="0" BlurRadius="8" Color="DodgerBlue"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
         </Style>
     </Page.Resources>
 
@@ -51,25 +108,25 @@
             <!-- Account ID -->
             <StackPanel Orientation="Horizontal" Margin="5">
                 <Label Content="Account ID:" Style="{StaticResource InputLabelStyle}" />
-                <TextBox Width="200" IsEnabled="False" />
+                <TextBox x:Name="AccountIdTextBox" Width="200" IsEnabled="False" />
             </StackPanel>
 
             <!-- Name -->
             <StackPanel Orientation="Horizontal" Margin="5">
                 <Label Content="Name:" Style="{StaticResource InputLabelStyle}" />
-                <TextBox Width="200" />
+                <TextBox x:Name="NameTextBox" Width="200" />
             </StackPanel>
 
             <!-- Password -->
             <StackPanel Orientation="Horizontal" Margin="5">
                 <Label Content="Password:" Style="{StaticResource InputLabelStyle}" />
-                <PasswordBox Width="200" />
+                <PasswordBox x:Name="PasswordBox" Width="200" />
             </StackPanel>
 
             <!-- Gender -->
             <StackPanel Orientation="Horizontal" Margin="5">
                 <Label Content="Gender:" Style="{StaticResource InputLabelStyle}" />
-                <ComboBox Width="200">
+                <ComboBox x:Name="GenderComboBox" Width="200" Margin="5" SelectedValuePath="Content">
                     <ComboBoxItem Content="Male" />
                     <ComboBoxItem Content="Female" />
                 </ComboBox>
@@ -78,7 +135,7 @@
             <!-- Type -->
             <StackPanel Orientation="Horizontal" Margin="5">
                 <Label Content="Type:" Style="{StaticResource InputLabelStyle}" />
-                <ComboBox Width="200">
+                <ComboBox x:Name="TypeComboBox" Width="200" Margin="5" SelectedValuePath="Content">
                     <ComboBoxItem Content="Admin" />
                     <ComboBoxItem Content="Staff" />
                 </ComboBox>
@@ -86,20 +143,34 @@
 
             <!-- Action Buttons -->
             <StackPanel Orientation="Horizontal" Margin="5">
-                <Button Content="Add" Style="{StaticResource ActionButtonStyle}" />
-                <Button Content="Update" Style="{StaticResource ActionButtonStyle}" />
-                <Button Content="Delete" Style="{StaticResource ActionButtonStyle}" />
+                <Button Content="Add" Style="{StaticResource ActionButtonStyle}" Click="AddButton_Click" />
+                <Button Content="Update" Style="{StaticResource ActionButtonStyle}" Click="UpdateButton_Click" />
+                <Button Content="Delete" Style="{StaticResource ActionButtonStyle}" Click="DeleteButton_Click" />
             </StackPanel>
         </StackPanel>
 
         <!-- DataGrid Section -->
-        <DataGrid x:Name="AccountsDataGrid" Grid.Row="1" AutoGenerateColumns="False" Margin="10" IsReadOnly="True" Loaded="DataGrid_Loaded">
+        <DataGrid x:Name="AccountsDataGrid" Grid.Row="1" AutoGenerateColumns="False" Margin="10" IsReadOnly="True" Loaded="DataGrid_Loaded" SelectionChanged="AccountsDataGrid_SelectionChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Account ID" Binding="{Binding Id}" Width="100" />
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="150" />
-                <DataGridTextColumn Header="Password" Binding="{Binding Password}" Width="250" />
-                <DataGridTextColumn Header="Gender" Binding="{Binding Gender}" Width="100" />
-                
+                <DataGridTextColumn Header="Password" Binding="{Binding Password}" Width="350" />
+                <DataGridTemplateColumn Header="Gender" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Gender, Converter={StaticResource GenderConverter}}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Type" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Type, Converter={StaticResource RoleConverter}}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

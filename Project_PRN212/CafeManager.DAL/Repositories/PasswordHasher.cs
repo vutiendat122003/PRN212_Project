@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace CafeManager.DAL.Repositories
@@ -27,6 +28,15 @@ namespace CafeManager.DAL.Repositories
                 }
                 return hash.ToString();
             }
+        }
+        public static bool IsValidPassword(string password)
+        {
+            // Biểu thức chính quy để kiểm tra mật khẩu có ít nhất một chữ hoa, một chữ thường, một chữ số và một ký tự đặc biệt
+            string pattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$";
+
+            // Kiểm tra mật khẩu với biểu thức chính quy
+            Regex regex = new Regex(pattern);
+            return regex.IsMatch(password);
         }
     }
 }

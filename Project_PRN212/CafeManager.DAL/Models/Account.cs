@@ -15,5 +15,6 @@ public partial class Account
 
     public int Type { get; set; }
 
+
     public virtual ICollection<Bill> Bills { get; set; } = new List<Bill>();
 }

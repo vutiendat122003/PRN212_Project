@@ -54,6 +54,13 @@ namespace CoffeShopManagement
         private void NavigateToLogin_Click(object sender, RoutedEventArgs e)
         {
 
+            // Nếu có sử dụng Cookies hoặc Session, xóa thông tin liên quan đến đăng nhập ở đó.
+
+            // Đóng cửa sổ hiện tại và mở cửa sổ đăng nhập
+            LoginWindow loginWindow = new LoginWindow();
+            loginWindow.Show();  // Mở cửa sổ đăng nhập
+            this.Close();  // Đóng cửa sổ hiện tại (nếu cần)
         }
+
     }
 }
