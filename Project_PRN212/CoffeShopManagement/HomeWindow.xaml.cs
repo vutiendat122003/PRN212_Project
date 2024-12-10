@@ -32,7 +32,7 @@ namespace CoffeShopManagement
 
         private void NavigateToDashboard_Click(object sender, RoutedEventArgs e)
         {
-
+            frMain.Content = new DashboardPage();
         }
 
         private void NavigateToBills_Click(object sender, RoutedEventArgs e)

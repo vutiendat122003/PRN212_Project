@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CafeManager.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c016c5edf92f6deeb74a526c643fd9d9f9ac1f8d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed09f9d87f6b8239ed5decdac8868d6b509ebea4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CafeManager.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CafeManager.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -179,3 +179,5 @@ D:\PRN212_Sang\PRN212_Project\PRN212_Project\Project_PRN212\CoffeShopManagement\
 D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\obj\Debug\net8.0-windows\Admin\ProductPage.g.cs
 D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\obj\Debug\net8.0-windows\Admin\ProductPage.baml
+D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\obj\Debug\net8.0-windows\Admin\DashboardPage.g.cs
+D:\PRN211\prn212_Assignment\PRN212_Project\Project_PRN212\CoffeShopManagement\obj\Debug\net8.0-windows\Admin\DashboardPage.baml
