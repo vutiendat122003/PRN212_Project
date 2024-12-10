@@ -56,7 +56,7 @@
                 <Label Content="Food Name:" Style="{StaticResource InputLabelStyle}" />
                 <TextBox Width="200" x:Name="ProductNameTextBox" />
             </StackPanel>
-            
+
             <!-- Image Selection -->
             <StackPanel Orientation="Horizontal" Margin="5">
                 <Label Content="Image:" Style="{StaticResource InputLabelStyle}" />
