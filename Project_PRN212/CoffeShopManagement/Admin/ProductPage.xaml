@@ -39,26 +39,21 @@
             <Setter Property="Padding" Value="10" />
         </Style>
     </Page.Resources>
-    <Grid>
+    <Grid Height="450" VerticalAlignment="Bottom">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-
         <!-- Left Section: Input Fields -->
         <StackPanel Grid.Column="0" Margin="10">
             <!-- Product ID -->
             <StackPanel Orientation="Horizontal" Margin="5">
-                <Label Content="Product ID:" Style="{StaticResource InputLabelStyle}" />
-                <TextBox Width="200" x:Name="ProductIDTextBox" />
+                <Label Content="Food ID:" Style="{StaticResource InputLabelStyle}" />
+                <TextBox Width="200" x:Name="ProductIDTextBox" IsReadOnly="True" IsEnabled="False"/>
             </StackPanel>
             <!-- Product Name -->
             <StackPanel Orientation="Horizontal" Margin="5">
-                <Label Content="Product Name:" Style="{StaticResource InputLabelStyle}" />
+                <Label Content="Food Name:" Style="{StaticResource InputLabelStyle}" />
                 <TextBox Width="200" x:Name="ProductNameTextBox" />
             </StackPanel>
             
@@ -66,7 +61,7 @@
             <StackPanel Orientation="Horizontal" Margin="5">
                 <Label Content="Image:" Style="{StaticResource InputLabelStyle}" />
                 <Button Content="Image" Click="ChooseImageButton_Click" Width="50" Height="30" />
-                <Image x:Name="ProductImage" Height="100" Width="125" Margin="10,0,0,0" />
+                <Image x:Name="FoodImage" Height="100" Width="125" Margin="10,0,0,0" />
             </StackPanel>
 
             <!-- Category -->
@@ -86,20 +81,28 @@
 
             <!-- Action Buttons -->
             <StackPanel Orientation="Horizontal" Margin="5">
-                <Button Content="Add" Style="{StaticResource ActionButtonStyle}" />
-                <Button Content="Update" Style="{StaticResource ActionButtonStyle}" />
-                <Button Content="Delete" Style="{StaticResource ActionButtonStyle}" />
+                <Button Content="Add" Style="{StaticResource ActionButtonStyle}" Click="AddButton_Click" />
+                <Button Content="Update" Style="{StaticResource ActionButtonStyle}" Click="UpdateButton_Click" />
+                <Button Content="Delete" Style="{StaticResource ActionButtonStyle}" Click="DeleteButton_Click" />
             </StackPanel>
         </StackPanel>
 
         <!-- Right Section: Search -->
-        <StackPanel Orientation="Horizontal" Grid.Column="1" Margin="130,10,0,0" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top">
+        <StackPanel Orientation="Horizontal" Grid.Column="1" HorizontalAlignment="Right" Height="54" VerticalAlignment="Top" RenderTransformOrigin="2.071,0.537">
             <TextBox Width="200" Height="30" x:Name="SearchTextBox" Margin="0,0,5,0" />
-            <Button Content="Search" Style="{StaticResource ActionButtonStyle}" Click="SearchButton_Click" />
+            <Button Content="Search" Style="{StaticResource ActionButtonStyle}" Click="SearchButton_Click"/>
         </StackPanel>
 
         <!-- DataGrid Section -->
-        
+        <DataGrid x:Name="FoodDataGrid" Grid.Row="1" AutoGenerateColumns="False" Margin="10" IsReadOnly="True" Loaded="DataGrid_Loaded" SelectionChanged="FoodDataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Product ID" Binding="{Binding Id}" Width="100" />
+                <DataGridTextColumn Header="Product Name" Binding="{Binding Name}" Width="220" />
+                <DataGridTextColumn Header="Image" Binding="{Binding ImageLink}" Width="250" />
+                <DataGridTextColumn Header="Category" Binding="{Binding IdCategory}" Width="100" />
+                <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="100" />
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 
 

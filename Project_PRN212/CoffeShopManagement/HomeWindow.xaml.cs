@@ -1,4 +1,6 @@
-﻿using CoffeShopManagement.Admin;
+﻿using CafeManager.BLL.Services;
+using CafeManager.DAL.Models;
+using CoffeShopManagement.Admin;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +14,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using static CafeManager.DAL.Repositories.FoodRepository;
 
 namespace CoffeShopManagement
 {
@@ -42,7 +45,11 @@ namespace CoffeShopManagement
 
         private void NavigateToProduct_Click(object sender, RoutedEventArgs e)
         {
-            frMain.Content = new ProductPage();
+            var dbContext = new CoffeeDbContext(); // Khởi tạo DbContext
+            var productRepository = new ProductRepository(dbContext); // Repository
+            var productService = new ProductService(productRepository); // Service
+
+            frMain.Content = new ProductPage(productService);
         }
 
         private void NavigateToAccounts_Click(object sender, RoutedEventArgs e)
