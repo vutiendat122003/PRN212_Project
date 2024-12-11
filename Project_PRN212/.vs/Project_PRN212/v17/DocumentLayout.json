@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|d:\\prn212_sang\\prn212_project\\prn212_project\\project_prn212\\coffeshopmanagement\\admin\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|solutionrelative:coffeshopmanagement\\admin\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|d:\\prn212_sang\\prn212_project\\prn212_project\\project_prn212\\coffeshopmanagement\\admin\\productpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|solutionrelative:coffeshopmanagement\\admin\\productpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E81415D1-8288-4EA5-A698-6B0B6801988C}|CafeManager.BLL\\CafeManager.BLL.csproj|d:\\prn212_sang\\prn212_project\\prn212_project\\project_prn212\\cafemanager.bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E81415D1-8288-4EA5-A698-6B0B6801988C}|CafeManager.BLL\\CafeManager.BLL.csproj|solutionrelative:cafemanager.bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|d:\\prn212_sang\\prn212_project\\prn212_project\\project_prn212\\coffeshopmanagement\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|solutionrelative:coffeshopmanagement\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|d:\\prn212_sang\\prn212_project\\prn212_project\\project_prn212\\coffeshopmanagement\\admin\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|solutionrelative:coffeshopmanagement\\admin\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{680BA3C3-D7A6-4FD9-AE97-1A0B2FEF7E9A}|CoffeShopManagement\\CoffeShopManagement.csproj|d:\\prn212_sang\\prn212_project\\prn212_project\\project_prn212\\coffeshopmanagement\\admin\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -151,7 +155,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,41 +166,21 @@
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.BLL\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "CafeManager.BLL\\Services\\ProductService.cs",
-              "ToolTip": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.BLL\\Services\\ProductService.cs",
-              "RelativeToolTip": "CafeManager.BLL\\Services\\ProductService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA3wCYAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProductPage.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\Admin\\ProductPage.xaml.cs",
+              "RelativeDocumentMoniker": "CoffeShopManagement\\Admin\\ProductPage.xaml.cs",
+              "ToolTip": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\Admin\\ProductPage.xaml.cs",
+              "RelativeToolTip": "CoffeShopManagement\\Admin\\ProductPage.xaml.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAvwIIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T04:08:46.819Z",
+              "WhenOpened": "2024-12-11T15:21:28.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Bill.cs",
-              "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\Models\\Bill.cs",
-              "RelativeDocumentMoniker": "CafeManager.DAL\\Models\\Bill.cs",
-              "ToolTip": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\Models\\Bill.cs",
-              "RelativeToolTip": "CafeManager.DAL\\Models\\Bill.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T18:35:19.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "DashboardService.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.BLL\\Services\\DashboardService.cs",
               "RelativeDocumentMoniker": "CafeManager.BLL\\Services\\DashboardService.cs",
@@ -208,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\appsettings.json",
               "RelativeDocumentMoniker": "CoffeShopManagement\\appsettings.json",
@@ -216,12 +200,11 @@
               "RelativeToolTip": "CoffeShopManagement\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-02T11:50:33.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T11:50:33.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "CoffeShopManagement\\AssemblyInfo.cs",
@@ -229,24 +212,11 @@
               "RelativeToolTip": "CoffeShopManagement\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T12:55:05.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T12:55:05.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DashboardPage.xaml",
-              "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\Admin\\DashboardPage.xaml",
-              "RelativeDocumentMoniker": "CoffeShopManagement\\Admin\\DashboardPage.xaml",
-              "ToolTip": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\Admin\\DashboardPage.xaml",
-              "RelativeToolTip": "CoffeShopManagement\\Admin\\DashboardPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-09T16:57:49.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ProductPage.xaml",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\Admin\\ProductPage.xaml",
               "RelativeDocumentMoniker": "CoffeShopManagement\\Admin\\ProductPage.xaml",
@@ -259,6 +229,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\Models\\Bill.cs",
+              "RelativeDocumentMoniker": "CafeManager.DAL\\Models\\Bill.cs",
+              "ToolTip": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\Models\\Bill.cs",
+              "RelativeToolTip": "CafeManager.DAL\\Models\\Bill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T18:35:19.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.BLL\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "CafeManager.BLL\\Services\\ProductService.cs",
+              "ToolTip": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.BLL\\Services\\ProductService.cs",
+              "RelativeToolTip": "CafeManager.BLL\\Services\\ProductService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T04:08:46.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\Admin\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "CoffeShopManagement\\Admin\\DashboardPage.xaml",
+              "ToolTip": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\Admin\\DashboardPage.xaml",
+              "RelativeToolTip": "CoffeShopManagement\\Admin\\DashboardPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-09T16:57:49.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AccountRepository.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\Repositories\\AccountRepository.cs",
               "RelativeDocumentMoniker": "CafeManager.DAL\\Repositories\\AccountRepository.cs",
@@ -270,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DashboardRepository.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\Repositories\\DashboardRepository.cs",
               "RelativeDocumentMoniker": "CafeManager.DAL\\Repositories\\DashboardRepository.cs",
@@ -282,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DashboardPage.xaml.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\Admin\\DashboardPage.xaml.cs",
               "RelativeDocumentMoniker": "CoffeShopManagement\\Admin\\DashboardPage.xaml.cs",
@@ -294,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "BillInfo.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\Models\\BillInfo.cs",
               "RelativeDocumentMoniker": "CafeManager.DAL\\Models\\BillInfo.cs",
@@ -306,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\App.xaml",
               "RelativeDocumentMoniker": "CoffeShopManagement\\App.xaml",
@@ -318,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "HomeWindow.xaml",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\HomeWindow.xaml",
               "RelativeDocumentMoniker": "CoffeShopManagement\\HomeWindow.xaml",
@@ -329,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Food.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\Models\\Food.cs",
               "RelativeDocumentMoniker": "CafeManager.DAL\\Models\\Food.cs",
@@ -341,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "CoffeShopManagement\\LoginWindow.xaml.cs",
@@ -353,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "SignUpWindow.xaml.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\SignUpWindow.xaml.cs",
               "RelativeDocumentMoniker": "CoffeShopManagement\\SignUpWindow.xaml.cs",
@@ -365,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "CoffeShopManagement\\LoginWindow.xaml",
@@ -376,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "AccountPage.xaml",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\Admin\\AccountPage.xaml",
               "RelativeDocumentMoniker": "CoffeShopManagement\\Admin\\AccountPage.xaml",
@@ -387,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "GeneralConverter.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\Converters\\GeneralConverter.cs",
               "RelativeDocumentMoniker": "CoffeShopManagement\\Converters\\GeneralConverter.cs",
@@ -399,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "HomeWindow.xaml.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\HomeWindow.xaml.cs",
               "RelativeDocumentMoniker": "CoffeShopManagement\\HomeWindow.xaml.cs",
@@ -411,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "AccountPage.xaml.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\Admin\\AccountPage.xaml.cs",
               "RelativeDocumentMoniker": "CoffeShopManagement\\Admin\\AccountPage.xaml.cs",
@@ -423,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "AccountService.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.BLL\\Services\\AccountService.cs",
               "RelativeDocumentMoniker": "CafeManager.BLL\\Services\\AccountService.cs",
@@ -435,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\Repositories\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "CafeManager.DAL\\Repositories\\PasswordHasher.cs",
@@ -447,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -459,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "StaffWindow.xaml.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\StaffWindow.xaml.cs",
               "RelativeDocumentMoniker": "CoffeShopManagement\\StaffWindow.xaml.cs",
@@ -471,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "CafeManager.DAL.csproj",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\CafeManager.DAL.csproj",
               "RelativeDocumentMoniker": "CafeManager.DAL\\CafeManager.DAL.csproj",
@@ -483,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Account.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\Models\\Account.cs",
               "RelativeDocumentMoniker": "CafeManager.DAL\\Models\\Account.cs",
@@ -495,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "XamlReader.cs",
               "DocumentMoniker": "C:\\Users\\Vanxuan\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
               "ToolTip": "C:\\Users\\Vanxuan\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
@@ -505,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "CoffeShopManagement.csproj",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\CoffeShopManagement.csproj",
               "RelativeDocumentMoniker": "CoffeShopManagement\\CoffeShopManagement.csproj",
@@ -517,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "SignUpWindow.xaml",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\SignUpWindow.xaml",
               "RelativeDocumentMoniker": "CoffeShopManagement\\SignUpWindow.xaml",
@@ -528,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\MainWindow.xaml",
               "RelativeDocumentMoniker": "CoffeShopManagement\\MainWindow.xaml",
@@ -539,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "StaffWindow.xaml",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\StaffWindow.xaml",
               "RelativeDocumentMoniker": "CoffeShopManagement\\StaffWindow.xaml",
@@ -550,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CoffeShopManagement\\App.xaml.cs",
               "RelativeDocumentMoniker": "CoffeShopManagement\\App.xaml.cs",
@@ -562,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "CafeManager.BLL.csproj",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.BLL\\CafeManager.BLL.csproj",
               "RelativeDocumentMoniker": "CafeManager.BLL\\CafeManager.BLL.csproj",
@@ -574,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\PRN212_Sang\\PRN212_Project\\PRN212_Project\\Project_PRN212\\CafeManager.BLL\\Class1.cs",
               "RelativeDocumentMoniker": "CafeManager.BLL\\Class1.cs",
@@ -586,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\Class1.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\PRN211\\prn212_Assignment\\PRN212_Project\\Project_PRN212\\CafeManager.DAL\\Class1.cs",

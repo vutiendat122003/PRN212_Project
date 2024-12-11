@@ -59,34 +59,41 @@ namespace CoffeShopManagement.Admin
                 ImageLink = FoodImage.Source?.ToString() ?? string.Empty // Example: Update this logic to handle actual file paths
             };
         }
-
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            var product = CreateProductFromInputs();
-            if (_productService.AddProduct(product))
+            var result = MessageBox.Show("Are you sure you want to add this product?", "Confirm Add", MessageBoxButton.OKCancel, MessageBoxImage.Question);
+            if (result == MessageBoxResult.OK)
             {
-                MessageBox.Show("Product added successfully!");
-                LoadProducts();
-                ClearInputs();
-            }
-            else
-            {
-                MessageBox.Show("Failed to add product. Check your inputs.");
+                var product = CreateProductFromInputs();
+                if (_productService.AddProduct(product))
+                {
+                    MessageBox.Show("Product added successfully!");
+                    LoadProducts();
+                    ClearInputs();
+                }
+                else
+                {
+                    MessageBox.Show("Failed to add product. Check your inputs.");
+                }
             }
         }
 
         private void UpdateButton_Click(object sender, RoutedEventArgs e)
         {
-            var product = CreateProductFromInputs();
-            if (_productService.UpdateProduct(product))
+            var result = MessageBox.Show("Are you sure you want to update this product?", "Confirm Update", MessageBoxButton.OKCancel, MessageBoxImage.Question);
+            if (result == MessageBoxResult.OK)
             {
-                MessageBox.Show("Product updated successfully!");
-                LoadProducts();
-                ClearInputs();
-            }
-            else
-            {
-                MessageBox.Show("Failed to update product. Check your inputs.");
+                var product = CreateProductFromInputs();
+                if (_productService.UpdateProduct(product))
+                {
+                    MessageBox.Show("Product updated successfully!");
+                    LoadProducts();
+                    ClearInputs();
+                }
+                else
+                {
+                    MessageBox.Show("Failed to update product. Check your inputs.");
+                }
             }
         }
 
@@ -94,15 +101,19 @@ namespace CoffeShopManagement.Admin
         {
             if (int.TryParse(ProductIDTextBox.Text, out var productId))
             {
-                if (_productService.DeleteProduct(productId))
+                var result = MessageBox.Show("Are you sure you want to delete this product?", "Confirm Delete", MessageBoxButton.OKCancel, MessageBoxImage.Warning);
+                if (result == MessageBoxResult.OK)
                 {
-                    MessageBox.Show("Product deleted successfully!");
-                    LoadProducts();
-                    ClearInputs();
-                }
-                else
-                {
-                    MessageBox.Show("Failed to delete product. Product not found.");
+                    if (_productService.DeleteProduct(productId))
+                    {
+                        MessageBox.Show("Product deleted successfully!");
+                        LoadProducts();
+                        ClearInputs();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Failed to delete product. Product not found.");
+                    }
                 }
             }
             else
@@ -111,21 +122,33 @@ namespace CoffeShopManagement.Admin
             }
         }
 
+
         private void SearchButton_Click(object sender, RoutedEventArgs e)
         {
-            var keyword = SearchTextBox.Text.ToLower();
-            var products = _productService.GetAllProducts();
-            var filteredProducts = new List<Food>();
+            string searchTerm = SearchTextBox.Text.Trim().ToLower();
 
-            foreach (var product in products)
+            if (string.IsNullOrEmpty(searchTerm))
             {
-                if (product.Name.ToLower().Contains(keyword))
-                {
-                    filteredProducts.Add(product);
-                }
+                // Reload the full list if search term is empty
+                LoadProducts();
+                MessageBox.Show("Please enter a search term.", "Search", MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
             }
 
-            FoodDataGrid.ItemsSource = filteredProducts;
+            // Filter products based on the starting characters of the product name
+            var filteredProducts = _productService.GetAllProducts()
+                .Where(product => product.Name.ToLower().StartsWith(searchTerm))
+                .ToList();
+
+            if (filteredProducts.Any())
+            {
+                FoodDataGrid.ItemsSource = filteredProducts;
+            }
+            else
+            {
+                MessageBox.Show("No products found matching your search term.", "Search", MessageBoxButton.OK, MessageBoxImage.Information);
+                FoodDataGrid.ItemsSource = null; // Clear the DataGrid
+            }
         }
 
         private void FoodDataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -144,20 +167,47 @@ namespace CoffeShopManagement.Admin
 
         private void ChooseImageButton_Click(object sender, RoutedEventArgs e)
         {
-            var openFileDialog = new Microsoft.Win32.OpenFileDialog
+            try
             {
-                Filter = "Image files (*.jpg, *.jpeg, *.png)|*.jpg;*.jpeg;*.png"
-            };
+                var openFileDialog = new Microsoft.Win32.OpenFileDialog
+                {
+                    Title = "Select an Image File",
+                    Filter = "Image files (*.jpg, *.jpeg, *.png)|*.jpg;*.jpeg;*.png",
+                    CheckFileExists = true, // Ensures the file must exist
+                    CheckPathExists = true  // Ensures the directory exists
+                };
 
-            if (openFileDialog.ShowDialog() == true)
+                if (openFileDialog.ShowDialog() == true)
+                {
+                    var selectedFilePath = openFileDialog.FileName;
+
+                    // Validate if the selected file is a valid image
+                    if (selectedFilePath.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase) ||
+                        selectedFilePath.EndsWith(".jpeg", StringComparison.OrdinalIgnoreCase) ||
+                        selectedFilePath.EndsWith(".png", StringComparison.OrdinalIgnoreCase))
+                    {
+                        FoodImage.Source = new System.Windows.Media.Imaging.BitmapImage(new System.Uri(selectedFilePath));
+                    }
+                    else
+                    {
+                        MessageBox.Show("Please select a valid image file.", "Invalid File", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    }
+                }
+            }
+            catch (Exception ex)
             {
-                FoodImage.Source = new System.Windows.Media.Imaging.BitmapImage(new System.Uri(openFileDialog.FileName));
+                MessageBox.Show($"An error occurred while selecting the image: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         private void DataGrid_Loaded(object sender, RoutedEventArgs e)
         {
             LoadProducts();
+        }
+
+        private void CategoryComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

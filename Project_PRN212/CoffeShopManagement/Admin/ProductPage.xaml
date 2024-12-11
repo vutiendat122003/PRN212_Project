@@ -39,7 +39,7 @@
             <Setter Property="Padding" Value="10" />
         </Style>
     </Page.Resources>
-    <Grid Height="450" VerticalAlignment="Bottom">
+    <Grid Height="523" VerticalAlignment="Top">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
@@ -67,9 +67,9 @@
             <!-- Category -->
             <StackPanel Orientation="Horizontal" Margin="5">
                 <Label Content="Category:" Style="{StaticResource InputLabelStyle}" />
-                <ComboBox Width="200" x:Name="CategoryComboBox">
-                    <ComboBoxItem Content="1" />
-                    <ComboBoxItem Content="2" />
+                <ComboBox Width="200" x:Name="CategoryComboBox" SelectionChanged="CategoryComboBox_SelectionChanged">
+                    <ComboBoxItem Content="Beverage" />
+                    <ComboBoxItem Content="Food" />
                 </ComboBox>
             </StackPanel>
 
@@ -88,13 +88,13 @@
         </StackPanel>
 
         <!-- Right Section: Search -->
-        <StackPanel Orientation="Horizontal" Grid.Column="1" HorizontalAlignment="Right" Height="54" VerticalAlignment="Top" RenderTransformOrigin="2.071,0.537">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Height="54" VerticalAlignment="Top" RenderTransformOrigin="2.071,0.537" Margin="0,0,10,0" Width="300">
             <TextBox Width="200" Height="30" x:Name="SearchTextBox" Margin="0,0,5,0" />
             <Button Content="Search" Style="{StaticResource ActionButtonStyle}" Click="SearchButton_Click"/>
         </StackPanel>
 
         <!-- DataGrid Section -->
-        <DataGrid x:Name="FoodDataGrid" Grid.Row="1" AutoGenerateColumns="False" Margin="10" IsReadOnly="True" Loaded="DataGrid_Loaded" SelectionChanged="FoodDataGrid_SelectionChanged">
+        <DataGrid x:Name="FoodDataGrid" AutoGenerateColumns="False" Margin="10,320,10,0" IsReadOnly="True" Loaded="DataGrid_Loaded" SelectionChanged="FoodDataGrid_SelectionChanged" Grid.RowSpan="2">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Product ID" Binding="{Binding Id}" Width="100" />
                 <DataGridTextColumn Header="Product Name" Binding="{Binding Name}" Width="220" />
